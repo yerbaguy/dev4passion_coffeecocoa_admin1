@@ -1,0 +1,15 @@
+current directory: /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+/Users/bartosz/.rbenv/versions/2.7.6/bin/ruby -I /Users/bartosz/.rbenv/versions/2.7.6/lib/ruby/2.7.0 -r ./siteconf20250420-9127-15a2cqq.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" clean
+
+current directory: /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR="
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20250420-9127-15dsnk2
