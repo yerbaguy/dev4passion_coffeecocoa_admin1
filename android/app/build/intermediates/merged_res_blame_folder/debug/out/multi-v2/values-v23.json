@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dev4passion_coffeecocoa_admin.app-mergeDebugResources-27:/values-v23/values-v23.xml",
+            "outputFile": "com.dev4passion_coffeecocoa_admin.app-mergeDebugResources-32:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/bartosz/.gradle/caches/transforms-3/3c779cdbfe914d21bda2ff85f9269f81/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",

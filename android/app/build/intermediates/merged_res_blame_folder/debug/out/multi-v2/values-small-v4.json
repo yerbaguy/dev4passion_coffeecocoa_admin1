@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dev4passion_coffeecocoa_admin.app-mergeDebugResources-27:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.dev4passion_coffeecocoa_admin.app-mergeDebugResources-32:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
                     "source": "/Users/bartosz/.gradle/caches/transforms-3/51e62fc50488df5a4f91bf6262135211/transformed/material-1.1.0/res/values-small-v4/values-small-v4.xml",

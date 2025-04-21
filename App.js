@@ -3,6 +3,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { Text, View } from 'react-native';
+import DrawerNavigator from './src/navigation/DrawerNavigator';
 
 const Drawer = createDrawerNavigator();
 
@@ -12,10 +13,11 @@ const ProfileScreen = () => <View><Text>Profile</Text></View>;
 export default function App() {
   return (
     <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Home">
+      <DrawerNavigator />
+      {/* <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen name="Home" component={HomeScreen} />
         <Drawer.Screen name="Profile" component={ProfileScreen} />
-      </Drawer.Navigator>
+      </Drawer.Navigator> */}
     </NavigationContainer>
   );
 }
