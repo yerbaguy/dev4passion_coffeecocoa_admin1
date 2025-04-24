@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, FlatList, StyleSheet, Alert } from 'react-native';
+import { View, FlatList, StyleSheet, Alert, Text } from 'react-native';
 import { firestore } from '../firebase/config';
 import ProductItem from '../components/ProductItem';
 
@@ -15,6 +15,7 @@ const HomeScreen = () => {
                     ...doc.data(),
                 }));
                 setProducts(productList);
+                console.log("productList", productList);
             });
         return () => unsubscribe();
     }, []);
@@ -28,12 +29,24 @@ const HomeScreen = () => {
         }
     };
 
+    const renderItem = ({ item }) => (
+        <View style={styles.item}>
+            {/* <Text>{item.name}</Text> Replace 'name' with your field */}
+            <Text>{item.brand}</Text> {/* Replace 'name' with your field */}
+            <Text>kajsd</Text>
+        </View>
+    );
+
     return (
         <View style={styles.container}>
             <FlatList
                 data={products}
+                renderItem={renderItem}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => (
+                    
+                   
+
                     <ProductItem product={item} onDelete={deleteProduct} />
                 )}
             />

@@ -26,10 +26,11 @@ const AddProductScreen = () => {
      const [farm, setFarm] = useState('');
      const [farmer, setFarmer] = useState('');
      const [roaster, setRoaster] = useState('');
-    // const [dealer, setDealer] = useState('');
-    // const [brand, setBrand] = useState('');
-    // const [origin, setOrigin] = useState('');
-    // const [typeOfCoffee, setTypeOfCoffee] = useState('');
+
+     const [dealer, setDealer] = useState('');
+     const [brand, setBrand] = useState('');
+     const [origin, setOrigin] = useState('');
+     const [typeOfCoffee, setTypeOfCoffee] = useState('');
     // const [variety, setVariety] = useState('');
     // const [processingMethods, setProcessingMethod] = useState('');
     // const [altitude, setAltitude] = useState('');
@@ -127,7 +128,7 @@ const AddProductScreen = () => {
 
     const addProduct = async () => {
         
-        if (!productDesc || !farm || !farmer || !roaster || !name || !price || !category) {
+        if (!productDesc || !farm || !farmer || !roaster || !dealer || !brand || !origin || !typeOfCoffee || !name || !price || !category) {
             Alert.alert('Error', 'Please fill all fields');
             return;
         }
@@ -146,6 +147,11 @@ const AddProductScreen = () => {
                 farmer,
                 roaster,
                 
+
+                dealer,
+                brand,
+                origin,
+                typeOfCoffee,
                 
                 
                 
@@ -165,6 +171,11 @@ const AddProductScreen = () => {
             setFarm('');
             setFarmer('');
             setRoaster('');
+
+            setDealer('');
+            setBrand('');
+            setOrigin('');
+            setTypeOfCoffee('');
 
             setName('');
             setPrice('');
@@ -208,6 +219,35 @@ const AddProductScreen = () => {
                         placeholder="roaster"
                         value={roaster}
                         onChangeText={setRoaster}
+                    />
+
+
+                    <TextInput
+                        style={styles.input}
+                        placeholder="dealer"
+                        value={dealer}
+                        onChangeText={setDealer}
+                    />
+
+                    <TextInput
+                        style={styles.input}
+                        placeholder="brand"
+                        value={brand}
+                        onChangeText={setBrand}
+                    />
+
+                    <TextInput
+                        style={styles.input}
+                        placeholder="origin"
+                        value={origin}
+                        onChangeText={setOrigin}
+                    />
+
+                    <TextInput
+                        style={styles.input}
+                        placeholder="typeOfCoffee"
+                        value={typeOfCoffee}
+                        onChangeText={setTypeOfCoffee}
                     />
 
                     {/* <TextInput

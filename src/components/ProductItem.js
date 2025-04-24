@@ -9,8 +9,17 @@ const ProductItem = ({ product, onDelete }) => {
         <View style={styles.container}>
             <Image source={{ uri: product.image }} style={styles.image} />
             <View style={styles.details}>
-                <Text style={styles.name}>{product.name}</Text>
-                <Text style={styles.price}>${product.price}</Text>
+                {/* <Text style={styles.name}>{product.name}</Text> */}
+                <Text style={styles.name}>{product.productDesc}</Text>
+                <Text style={styles.name}>{product.farm}</Text>
+                <Text style={styles.price}>${product.farmer}</Text>
+                <Text style={styles.price}>${product.roaster}</Text>
+
+                <Text style={styles.name}>{product.dealer}</Text>
+                <Text style={styles.price}>${product.brand}</Text>
+                <Text style={styles.price}>${product.origin}</Text>
+
+
                 <Button
                     title="Edit"
                     onPress={() => navigation.navigate('EditProduct', { product })}
