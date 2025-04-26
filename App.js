@@ -4,14 +4,39 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { Text, View } from 'react-native';
 import DrawerNavigator from './src/navigation/DrawerNavigator';
+import { AuthProvider } from './src/context/AuthContext';
+import LoginScreen from './src/screens/LoginScreen';
+import CartScreen from './src/screens/CartScreen';
 
 const Drawer = createDrawerNavigator();
 
 const HomeScreen = () => <View><Text>Home</Text></View>;
 const ProfileScreen = () => <View><Text>Profile</Text></View>;
 
+
+// const App = () => {
+//   return (
+//     <AuthProvider>
+//       <NavigationContainer>
+//         <Drawer.Navigator initialRouteName="Login">
+//           <Drawer.Screen name="Login" component={LoginScreen} />
+//           <Drawer.Screen name="Cart" component={CartScreen} />
+//           <Drawer.Screen name="Home" component={HomeScreen} />
+//           <Drawer.Screen name="Profile" component={ProfileScreen} />
+//         </Drawer.Navigator>
+//       </NavigationContainer>
+//     </AuthProvider>
+//   );
+// };
+
+// export default App;
+
+
+
+
 export default function App() {
   return (
+    
     <NavigationContainer>
       <DrawerNavigator />
       {/* <Drawer.Navigator initialRouteName="Home">
@@ -19,8 +44,12 @@ export default function App() {
         <Drawer.Screen name="Profile" component={ProfileScreen} />
       </Drawer.Navigator> */}
     </NavigationContainer>
+    
   );
 }
+
+
+
 
 // /**
 //  * Sample React Native App

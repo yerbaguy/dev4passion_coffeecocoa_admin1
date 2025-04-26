@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dev4passion_coffeecocoa_admin.app-mergeReleaseResources-31:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/bartosz/.gradle/caches/transforms-3/72297a208413eda880c82a1496d848a0/transformed/appcompat-1.4.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

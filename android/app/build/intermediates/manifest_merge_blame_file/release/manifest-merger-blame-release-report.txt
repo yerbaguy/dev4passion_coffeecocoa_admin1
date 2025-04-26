@@ -1,0 +1,281 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dev4passion_coffeecocoa_admin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:react-native-firebase_auth] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+12-->[:react-native-firebase_auth] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:react-native-firebase_auth] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+13-->[:react-native-firebase_auth] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+14
+15    <application
+15-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:6:5-25:19
+16        android:name="com.dev4passion_coffeecocoa_admin.MainApplication"
+16-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:7:7-38
+17        android:allowBackup="false"
+17-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:11:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] /Users/bartosz/.gradle/caches/transforms-3/6ab81445c09105d9df5db46b2b0c88e9/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:9:7-41
+20        android:label="@string/app_name"
+20-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:8:7-39
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:10:7-52
+22        android:theme="@style/AppTheme" >
+22-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:12:7-38
+23        <activity
+23-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:13:7-24:18
+24            android:name="com.dev4passion_coffeecocoa_admin.MainActivity"
+24-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:14:9-37
+25            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+25-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:16:9-118
+26            android:exported="true"
+26-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:19:9-32
+27            android:label="@string/app_name"
+27-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:15:9-41
+28            android:launchMode="singleTask"
+28-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:17:9-40
+29            android:windowSoftInputMode="adjustResize" >
+29-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:18:9-51
+30            <intent-filter>
+30-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:20:9-23:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:21:13-65
+31-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:21:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:22:13-73
+33-->/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/android/app/src/main/AndroidManifest.xml:22:23-70
+34            </intent-filter>
+35        </activity>
+36
+37        <meta-data
+37-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+38            android:name="app_data_collection_default_enabled"
+38-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+39            android:value="true" />
+39-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+40
+41        <service
+41-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+43            android:directBootAware="true"
+43-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+44            android:exported="false" >
+44-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+45            <meta-data
+45-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+46                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+46-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-firestore:24.3.1] /Users/bartosz/.gradle/caches/transforms-3/98b476598da3bc64d7ca3cde3bafeecf/transformed/jetified-firebase-firestore-24.3.1/AndroidManifest.xml:20:13-22:85
+49                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+49-->[com.google.firebase:firebase-firestore:24.3.1] /Users/bartosz/.gradle/caches/transforms-3/98b476598da3bc64d7ca3cde3bafeecf/transformed/jetified-firebase-firestore-24.3.1/AndroidManifest.xml:21:17-111
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-firestore:24.3.1] /Users/bartosz/.gradle/caches/transforms-3/98b476598da3bc64d7ca3cde3bafeecf/transformed/jetified-firebase-firestore-24.3.1/AndroidManifest.xml:22:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:67:13-69:85
+52                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+52-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:68:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:69:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-storage:20.0.2] /Users/bartosz/.gradle/caches/transforms-3/ee4bf3f37d87a40712c28764cd42cd31/transformed/jetified-firebase-storage-20.0.2/AndroidManifest.xml:33:13-35:85
+55                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+55-->[com.google.firebase:firebase-storage:20.0.2] /Users/bartosz/.gradle/caches/transforms-3/ee4bf3f37d87a40712c28764cd42cd31/transformed/jetified-firebase-storage-20.0.2/AndroidManifest.xml:34:17-107
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-storage:20.0.2] /Users/bartosz/.gradle/caches/transforms-3/ee4bf3f37d87a40712c28764cd42cd31/transformed/jetified-firebase-storage-20.0.2/AndroidManifest.xml:35:17-82
+57        </service>
+58
+59        <provider
+59-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+60            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+60-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+61            android:authorities="com.dev4passion_coffeecocoa_admin.reactnativefirebaseappinitprovider"
+61-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+62            android:exported="false"
+62-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+63            android:initOrder="99" />
+63-->[:react-native-firebase_app] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+64        <provider
+64-->[:react-native-image-picker] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+65            android:name="com.imagepicker.ImagePickerProvider"
+65-->[:react-native-image-picker] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+66            android:authorities="com.dev4passion_coffeecocoa_admin.imagepickerprovider"
+66-->[:react-native-image-picker] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+67            android:exported="false"
+67-->[:react-native-image-picker] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+68            android:grantUriPermissions="true" >
+68-->[:react-native-image-picker] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+69            <meta-data
+69-->[:react-native-image-picker] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+70                android:name="android.support.FILE_PROVIDER_PATHS"
+70-->[:react-native-image-picker] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+71                android:resource="@xml/imagepicker_provider_paths" />
+71-->[:react-native-image-picker] /Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_admin/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+72        </provider>
+73
+74        <activity
+74-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:27:9-44:20
+75            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+75-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:28:13-80
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:29:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:30:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:31:13-44
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+79-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:32:13-72
+80            <intent-filter>
+80-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:33:13-43:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:34:17-69
+81-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:34:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:36:17-76
+83-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:36:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:37:17-78
+84-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:37:27-75
+85
+86                <data
+86-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:39:17-42:51
+87                    android:host="firebase.auth"
+87-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:40:21-49
+88                    android:path="/"
+88-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:41:21-37
+89                    android:scheme="genericidp" />
+89-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:42:21-48
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:45:9-62:20
+93            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+93-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:46:13-79
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:47:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:48:13-36
+96            android:launchMode="singleTask"
+96-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:49:13-44
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+97-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:50:13-72
+98            <intent-filter>
+98-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:51:13-61:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:34:17-69
+99-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:34:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:36:17-76
+101-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:36:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:37:17-78
+102-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:37:27-75
+103
+104                <data
+104-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:39:17-42:51
+105                    android:host="firebase.auth"
+105-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:40:21-49
+106                    android:path="/"
+106-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:41:21-37
+107                    android:scheme="recaptcha" />
+107-->[com.google.firebase:firebase-auth:21.0.8] /Users/bartosz/.gradle/caches/transforms-3/df909f6cc0faea81721bcd7cdf012325/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:42:21-48
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+111            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+111-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+112            android:excludeFromRecents="true"
+112-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+115        <!--
+116            Service handling Google Sign-In user revocation. For apps that do not integrate with
+117            Google Sign-In, this service will never be started.
+118        -->
+119        <service
+119-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+120            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+120-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+122            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+122-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+123            android:visibleToInstantApps="true" />
+123-->[com.google.android.gms:play-services-auth:20.3.0] /Users/bartosz/.gradle/caches/transforms-3/db834296035fe774ab1b683ffd001ac2/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+124
+125        <activity
+125-->[com.google.android.gms:play-services-base:18.0.1] /Users/bartosz/.gradle/caches/transforms-3/a3ae812b4d636a35fe1b732b4a960e28/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+126            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+126-->[com.google.android.gms:play-services-base:18.0.1] /Users/bartosz/.gradle/caches/transforms-3/a3ae812b4d636a35fe1b732b4a960e28/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-base:18.0.1] /Users/bartosz/.gradle/caches/transforms-3/a3ae812b4d636a35fe1b732b4a960e28/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.google.android.gms:play-services-base:18.0.1] /Users/bartosz/.gradle/caches/transforms-3/a3ae812b4d636a35fe1b732b4a960e28/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+129
+130        <provider
+130-->[com.google.firebase:firebase-common:20.1.2] /Users/bartosz/.gradle/caches/transforms-3/68c907d70d3952accb8bf74d09a2beb3/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:26:9-31:39
+131            android:name="com.google.firebase.provider.FirebaseInitProvider"
+131-->[com.google.firebase:firebase-common:20.1.2] /Users/bartosz/.gradle/caches/transforms-3/68c907d70d3952accb8bf74d09a2beb3/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:27:13-77
+132            android:authorities="com.dev4passion_coffeecocoa_admin.firebaseinitprovider"
+132-->[com.google.firebase:firebase-common:20.1.2] /Users/bartosz/.gradle/caches/transforms-3/68c907d70d3952accb8bf74d09a2beb3/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:28:13-72
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-common:20.1.2] /Users/bartosz/.gradle/caches/transforms-3/68c907d70d3952accb8bf74d09a2beb3/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:29:13-43
+134            android:exported="false"
+134-->[com.google.firebase:firebase-common:20.1.2] /Users/bartosz/.gradle/caches/transforms-3/68c907d70d3952accb8bf74d09a2beb3/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:30:13-37
+135            android:initOrder="100" />
+135-->[com.google.firebase:firebase-common:20.1.2] /Users/bartosz/.gradle/caches/transforms-3/68c907d70d3952accb8bf74d09a2beb3/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:31:13-36
+136
+137        <meta-data
+137-->[com.google.android.gms:play-services-basement:18.1.0] /Users/bartosz/.gradle/caches/transforms-3/218cded68d27ee00fe681a6721cd192a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+138            android:name="com.google.android.gms.version"
+138-->[com.google.android.gms:play-services-basement:18.1.0] /Users/bartosz/.gradle/caches/transforms-3/218cded68d27ee00fe681a6721cd192a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.google.android.gms:play-services-basement:18.1.0] /Users/bartosz/.gradle/caches/transforms-3/218cded68d27ee00fe681a6721cd192a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+140
+141        <provider
+141-->[androidx.emoji2:emoji2:1.0.0] /Users/bartosz/.gradle/caches/transforms-3/c4fb70e71ce7e99c35c3d79ff8485c08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+142            android:name="androidx.startup.InitializationProvider"
+142-->[androidx.emoji2:emoji2:1.0.0] /Users/bartosz/.gradle/caches/transforms-3/c4fb70e71ce7e99c35c3d79ff8485c08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+143            android:authorities="com.dev4passion_coffeecocoa_admin.androidx-startup"
+143-->[androidx.emoji2:emoji2:1.0.0] /Users/bartosz/.gradle/caches/transforms-3/c4fb70e71ce7e99c35c3d79ff8485c08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+144            android:exported="false" >
+144-->[androidx.emoji2:emoji2:1.0.0] /Users/bartosz/.gradle/caches/transforms-3/c4fb70e71ce7e99c35c3d79ff8485c08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+145            <meta-data
+145-->[androidx.emoji2:emoji2:1.0.0] /Users/bartosz/.gradle/caches/transforms-3/c4fb70e71ce7e99c35c3d79ff8485c08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+146                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+146-->[androidx.emoji2:emoji2:1.0.0] /Users/bartosz/.gradle/caches/transforms-3/c4fb70e71ce7e99c35c3d79ff8485c08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+147                android:value="androidx.startup" />
+147-->[androidx.emoji2:emoji2:1.0.0] /Users/bartosz/.gradle/caches/transforms-3/c4fb70e71ce7e99c35c3d79ff8485c08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+148            <meta-data
+148-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/bartosz/.gradle/caches/transforms-3/7464647effbcdbd661032cacfc44e87b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+149                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+149-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/bartosz/.gradle/caches/transforms-3/7464647effbcdbd661032cacfc44e87b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+150                android:value="androidx.startup" />
+150-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/bartosz/.gradle/caches/transforms-3/7464647effbcdbd661032cacfc44e87b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+151        </provider>
+152    </application>
+153
+154</manifest>

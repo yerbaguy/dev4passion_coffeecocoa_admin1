@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dev4passion_coffeecocoa_admin.app-merged_res-33:/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.dev4passion_coffeecocoa_admin.app-react-28:/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    }
+]
